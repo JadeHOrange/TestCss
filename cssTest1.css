@@ -1918,7 +1918,7 @@ html[dir=rtl] .theme-entry .input-control.select-box.picker-input.hide-buttons .
         box-sizing: border-box;
         overflow: hidden;
         padding-left: 1rem;
-        color: #b4b4b4;
+        color: rgb(77, 79, 83);
         -ms-text-overflow: ellipsis;
         -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
@@ -1979,7 +1979,7 @@ html[dir=rtl] .theme-entry .input-control.select-box.picker-input.hide-buttons .
 .theme-entry .toolbars.double .toolbar .toolbar-wrapper {
     background-image: none;
     /*removes the gradients!*/
-    background-color: white;
+    background-color: darkred;
     border-color: #e5e5e5;
 }
 /*#endregion reset end*/
