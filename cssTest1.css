@@ -1980,7 +1980,7 @@ html[dir=rtl] .theme-entry .input-control.select-box.picker-input.hide-buttons .
     background-image: none;
     /*removes the gradients!*/
     background-color: darkred;
-    border-color: #e5e5e5;
+    border-color: darkred;
 }
 /*#endregion reset end*/
 
