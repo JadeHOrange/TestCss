@@ -6,7 +6,7 @@
 
 @media only screen and (min-resolution: 1.5dppx), (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2) {
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .search-button-wrapper .PART_SearchButton {
-    background-image: url("../../_dynamic/Toolbar/Search16@2x.png");
+    background-image: url("../../Dynamic/Toolbar/Search16@2x.png");
     -moz-background-size: 16px;
     background-size: 16px;
     background-repeat: no-repeat;
@@ -15,10 +15,10 @@
     width: 22px;
   }
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .search-button-wrapper:hover .PART_SearchButton {
-    background-image: url("../../_dynamic/Toolbar/Search16White@2x.png");
+    background-image: url("../../Dynamic/Toolbar/Search16White@2x.png");
   }
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .clear-search-button-wrapper .PART_ClearSearchButton {
-    background-image: url("../../_dynamic/Toolbar/ClearIcon16@2x.png");
+    background-image: url("../../Dynamic/Toolbar/ClearIcon16@2x.png");
     -moz-background-size: 16px;
     background-size: 16px;
     background-repeat: no-repeat;
@@ -27,14 +27,14 @@
     width: 22px;
   }
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .clear-search-button-wrapper:hover .PART_ClearSearchButton {
-    background-image: url("../../_dynamic/Toolbar/ClearIconsWhite16.png");
+    background-image: url("../../Dynamic/Toolbar/ClearIconsWhite16.png");
   }
 }
 /*Images - normal*/
 
 @media only screen and (max-resolution: 1.5dppx), (max-resolution: 144dpi), (-webkit-max-device-pixel-ratio: 1.5), (-o-max-device-pixel-ratio: 3/2) {
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .search-button-wrapper .PART_SearchButton {
-    background-image: url("../../_dynamic/Toolbar/Search16.png");
+    background-image: url("../../Dynamic/Toolbar/Search16.png");
     -moz-background-size: 16px;
     background-size: 16px;
     background-repeat: no-repeat;
@@ -43,10 +43,10 @@
     width: 22px;
   }
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .search-button-wrapper:hover .PART_SearchButton {
-    background-image: url("../../_dynamic/Toolbar/Search16White.png");
+    background-image: url("../../Dynamic/Toolbar/Search16White.png");
   }
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .clear-search-button-wrapper .PART_ClearSearchButton {
-    background-image: url("../../_dynamic/Toolbar/ClearIcon16.png");
+    background-image: url("../../Dynamic/Toolbar/ClearIcon16.png");
     -moz-background-size: 16px;
     background-size: 16px;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@
     width: 22px;
   }
   .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .clear-search-button-wrapper:hover .PART_ClearSearchButton {
-    background-image: url("../../_dynamic/Toolbar/ClearIconsWhite16.png");
+    background-image: url("../../Dynamic/Toolbar/ClearIconsWhite16.png");
   }
 }
 /*Images@2x - hi-dpi*/
@@ -92,14 +92,14 @@
 /* expand/collapse icon for advanced search option*/
 
 .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .cp-searchbar .PART_ExpanderButton {
-  background-image: url("../../_dynamic/RuntimeTheme/PDExpand16.png");
+  background-image: url("../../Dynamic/RuntimeTheme/PDExpand16.png");
   -moz-background-size: 16px;
   background-size: 16px;
   margin-left: 0px;
   margin-top: 0px;
 }
 .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-Common-SearchBar .cp-searchbar .PART_ExpanderButton.expanded {
-  background-image: url("../../_dynamic/RuntimeTheme/PDCollapse16.png");
+  background-image: url("../../Dynamic/RuntimeTheme/PDCollapse16.png");
   -moz-background-size: 16px;
   background-size: 16px;
 }
