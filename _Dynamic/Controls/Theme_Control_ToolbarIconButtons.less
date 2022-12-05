@@ -1,0 +1,59 @@
+
+.theme-entry .filterContainer .refreshImg,
+.theme-entry .filterContainer .configFilterImg
+{
+    display: inline-block;
+    margin-right: 0rem;
+    margin-left: 0px !important;
+    padding: 0.6rem;
+}
+
+.theme-entry a.toolbar-button span.button-icon,
+.theme-entry .filterContainer .refreshImg,
+.theme-entry .filterContainer .configFilterImg
+{
+    left: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/*used by worklist control, and others*/
+/* Lewis & Nazz unable to verify where these toolbar-button classes are used 2020/10 */
+.theme-entry .grid-header a.toolbar-button,
+.theme-entry .panel-header a.toolbar-button
+{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: @View-Header-Button-Border-Color;
+    -moz-background-size: 16px 16px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+
+    border-radius: @Button-Rounding;
+    overflow:hidden;
+
+    &:hover{
+        background-color: @View-Header-Button-Hover-Background-Color;
+    }
+
+    //toggle style
+    &.selected, 
+    &.selected:hover{
+        background-color: @View-Header-Button-ToggleOn-Background-Color;
+    }
+
+    //Async/animated button style
+    &.loading, 
+    &.loading:hover
+    {
+        background-color: transparent;
+        border-color: transparent; /*make sure the border or background don't spin with css animation*/
+    }
+}
+
+

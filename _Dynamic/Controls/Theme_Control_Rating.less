@@ -1,0 +1,51 @@
+/*#region RATING CONTROL */
+.theme-entry .ratingWrapper
+{
+    padding: 0px;
+    height: auto; 
+   
+    & > a
+    {
+        display:flex;
+        align-items: center;
+    }
+
+    .styling-outer-wrapper
+    {
+        display:flex!important; //to make sure stars are centered.
+        align-items: center;
+    }
+
+    .styling-inner-wrapper
+    {
+        display:flex!important; //to make sure stars are centered.
+        align-items: center;
+
+        height: @__Input-Inner-Height; //we use inner height as a 1px border is applied to ratingWrapper
+    }
+}
+
+.theme-entry .ratingStar
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 0 !important; /* override base - keeps spacing for wrapping rating controls */
+    margin-bottom: 0px !important;
+    
+    margin-right: 0.3rem !important;
+    &:last-child{
+        margin-right: 0px !important;
+    }
+
+}
+
+.theme-entry .ratingWrapper.disabled *,
+.theme-entry .ratingWrapper.read-only *
+{
+    cursor: default;
+}
+
+/*#endregion RATING CONTROL */
