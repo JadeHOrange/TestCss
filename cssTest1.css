@@ -12,7 +12,7 @@
 
 .theme-entry {
   --k2-main-accent-color: #00abf0;
-  --k2-content-background-color: pink;
+  --k2-content-background-color: white;
   --k2-panel-background-color: #f2f2f2;
   --k2-error-color: #b71c1c;
   --main-text-size: 1.2rem;
@@ -54,12 +54,12 @@
 }
 .theme-entry {
   --page-background-color: #a9b2b5;
-  --form-background-color: pink;
-  --dialog-background-color: pink;
+  --form-background-color: white;
+  --dialog-background-color: white;
   --dialog-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
   --dialog-header-text-color: #666666;
   --dialog-separator-line-color: #cccccc;
-  --popover-background-color: pink;
+  --popover-background-color: white;
 }
 .theme-entry {
   --panel-background-color: #f2f2f2;
@@ -80,16 +80,16 @@
   --toolbar-separator-line-color: #939ea2;
   --toolbar-text-color: #141718;
   --toolbar-border-color: #939ea2;
-  --menu-background-color: pink;
+  --menu-background-color: white;
   --menu-border-color: transparent;
   --menu-text-color: #383e41;
   --menu-item-selected-background-color: #00abf0;
-  --menu-item-selected-text-color: pink;
+  --menu-item-selected-text-color: white;
   --menu-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --menu-item-hover-text-color: black;
   --menu-item-focus-background-color: rgba(0, 171, 240, 0.5);
   --menu-item-focus-border-color: #00abf0;
-  --menu-item-focus-text-color: pink;
+  --menu-item-focus-text-color: white;
   --menu-item-separator-line-color: #cccccc;
   --menu-item-disabled-background-color: transparent;
   --menu-item-disabled-text-color: #b2b2b2;
@@ -124,26 +124,26 @@
   --input-error-border-color: #b13d3e;
   --input-error-text-color: #362b2d;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #383e41;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #383e41;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: black;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #8e999e;
   --toolbar-button-hover-border-color: #8e999e;
-  --toolbar-button-hover-text-color: pink;
+  --toolbar-button-hover-text-color: white;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
   --toolbar-button-focus-text-color: black;
@@ -183,10 +183,10 @@
   --loader-progress-background-color: #00abf0;
   --button-background-color: #636363;
   --button-border-color: #636363;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #7d7d7d;
   --button-hover-border-color: #7d7d7d;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #636363;
   --button-focus-border-color: #00abf0;
   --button-focus-text-color: #e2e2e2;
@@ -220,13 +220,13 @@
   --quiet-button-disabled-text-color: #303030;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -238,7 +238,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #383e41;
   --smartfield-text-color: #d2d7d8;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -255,30 +255,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(155, 165, 169, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(186, 111, 113, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #a8cedd;
   --tree-item-hover-text-color: #17313c;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #c5cacd;
@@ -314,7 +314,7 @@
   --list-column-header-background-color: #c2c8ca;
   --list-column-header-text-color: #596367;
   --list-column-header-border-color: #a5aeb1;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -329,12 +329,12 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #b7bec1;
   --list-action-button-text-color: #202425;
   --list-action-button-hover-background-color: #9ba5a9;
-  --list-action-button-hover-text-color: pink;
+  --list-action-button-hover-text-color: white;
   --list-summary-background-color: #d2d7d8;
   --list-summary-separator-line-color: #b7bec1;
   --tab-background-color: transparent;
@@ -345,14 +345,14 @@
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #8e999e;
-  --tab-selected-text-color: pink;
-  --main-tab-selected-background-color: pink;
+  --tab-selected-text-color: white;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #8e999e;
   --segmented-tab-bar-background-color: #969696;
   --segmented-tab-bar-border-color: #c9c9c9;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #303030;
   --segmented-tab-hover-background-color: #b0b0b0;
   --segmented-tab-hover-text-color: #171717;
@@ -376,7 +376,7 @@
   --heading2-text-color: #063a4f;
   --heading3-text-color: #063a4f;
   --heading4-text-color: #063a4f;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -393,19 +393,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #404040;
@@ -448,23 +448,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #a5a5a5;
   --file-upload-disabled-text-color: #a5a5a5;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #a5a5a5;
   --button-border-color: #a5a5a5;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #bebebe;
   --button-hover-border-color: #bebebe;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #a5a5a5;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #bebebe;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #a5a5a5;
   --button-disabled-border-color: #a5a5a5;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -489,13 +489,13 @@
   --quiet-button-disabled-text-color: #727272;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -506,8 +506,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -524,33 +524,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -572,7 +572,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -583,7 +583,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -598,13 +598,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #595959;
@@ -615,7 +615,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #d8d8d8;
   --tab-selected-text-color: #3a3a3a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #d8d8d8;
   --segmented-tab-bar-background-color: #d8d8d8;
@@ -657,28 +657,28 @@
   --input-error-watermark-text-color: rgba(255, 255, 255, 0.5);
   --input-error-background-color: #aaa3a6;
   --input-error-border-color: #bb4c4d;
-  --input-error-text-color: pink;
+  --input-error-text-color: white;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #141718;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #141718;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: black;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #8e999e;
   --toolbar-button-hover-border-color: #8e999e;
-  --toolbar-button-hover-text-color: pink;
+  --toolbar-button-hover-text-color: white;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
   --toolbar-button-focus-text-color: black;
@@ -718,10 +718,10 @@
   --loader-progress-background-color: #00abf0;
   --button-background-color: #636363;
   --button-border-color: #636363;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #7d7d7d;
   --button-hover-border-color: #7d7d7d;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #636363;
   --button-focus-border-color: #00abf0;
   --button-focus-text-color: #e2e2e2;
@@ -755,13 +755,13 @@
   --quiet-button-disabled-text-color: #303030;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -773,7 +773,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #141718;
   --smartfield-text-color: #a9b2b5;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -790,30 +790,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(115, 128, 133, 0.4);
   --pill-text-color: #8addff;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(165, 93, 95, 0.4);
   --pill-error-text-color: #de2828;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #87b0c1;
-  --tree-item-hover-text-color: pink;
+  --tree-item-hover-text-color: white;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #c5cacd;
@@ -847,9 +847,9 @@
   --list-readonly-border-color: #738085;
   --list-readonly-text-color: #141718;
   --list-column-header-background-color: #99a3a7;
-  --list-column-header-text-color: pink;
+  --list-column-header-text-color: white;
   --list-column-header-border-color: #7c898e;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -859,15 +859,15 @@
   --list-item-description-text-color: inherit;
   --list-item-hover-background-color: rgba(0, 171, 240, 0.3);
   --list-item-hover-border-color: #c4e6f4;
-  --list-item-hover-text-color: pink;
+  --list-item-hover-text-color: white;
   --list-item-focus-border-color: #00abf0;
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #8e999e;
-  --list-action-button-text-color: pink;
+  --list-action-button-text-color: white;
   --list-action-button-hover-background-color: #a9b2b5;
   --list-action-button-hover-text-color: #141718;
   --list-summary-background-color: transparent;
@@ -880,14 +880,14 @@
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #8e999e;
-  --tab-selected-text-color: pink;
-  --main-tab-selected-background-color: pink;
+  --tab-selected-text-color: white;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #8e999e;
   --segmented-tab-bar-background-color: #969696;
   --segmented-tab-bar-border-color: #c9c9c9;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #303030;
   --segmented-tab-hover-background-color: #b0b0b0;
   --segmented-tab-hover-text-color: #171717;
@@ -916,18 +916,18 @@
   --view-header-button-toggleon-border-color: transparent;
   --toolbar-background-color: transparent;
   --toolbar-separator-line-color: #a4adb0;
-  --toolbar-text-color: pink;
+  --toolbar-text-color: white;
   --toolbar-border-color: #a4adb0;
-  --menu-background-color: pink;
+  --menu-background-color: white;
   --menu-border-color: transparent;
   --menu-text-color: #202425;
   --menu-item-selected-background-color: #00abf0;
-  --menu-item-selected-text-color: pink;
+  --menu-item-selected-text-color: white;
   --menu-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --menu-item-hover-text-color: black;
   --menu-item-focus-background-color: rgba(0, 171, 240, 0.5);
   --menu-item-focus-border-color: #00abf0;
-  --menu-item-focus-text-color: pink;
+  --menu-item-focus-text-color: white;
   --menu-item-separator-line-color: #cccccc;
   --menu-item-disabled-background-color: transparent;
   --menu-item-disabled-text-color: #b2b2b2;
@@ -936,9 +936,9 @@
 .theme-entry .tab-box:not(.form-tabs) > .tab-box-body > * {
   --error-text-color: #ec8080;
   color: var(--normal-text-color);
-  --normal-text-color: pink;
-  --description-text-color: pink;
-  --paragraph-text-color: pink;
+  --normal-text-color: white;
+  --description-text-color: white;
+  --paragraph-text-color: white;
   --page-title-text-color: #cfedf9;
   --page-subtitle-text-color: #b4dced;
   --heading1-text-color: #cfedf9;
@@ -954,7 +954,7 @@
   --input-disabled-text-color: #f9f9f9;
   --input-readonly-background-color: rgba(183, 190, 193, 0.6);
   --input-readonly-border-color: #c2c8ca;
-  --input-readonly-text-color: pink;
+  --input-readonly-text-color: white;
   --input-label-text-color: inherit;
   --input-label-disabled-text-color: rgba(255, 255, 255, 0.8);
   --input-error-watermark-text-color: rgba(27, 24, 25, 0.5);
@@ -962,29 +962,29 @@
   --input-error-border-color: #a93839;
   --input-error-text-color: #1b1819;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #202425;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #202425;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #ec8080;
   --toolbar-button-background-color: transparent;
-  --toolbar-button-text-color: pink;
+  --toolbar-button-text-color: white;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #a9b2b5;
   --toolbar-button-hover-border-color: #a9b2b5;
   --toolbar-button-hover-text-color: #2c3133;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
-  --toolbar-button-focus-text-color: pink;
+  --toolbar-button-focus-text-color: white;
   --toolbar-button-toggle-background-color: #00abf0;
   --toolbar-button-disabled-background-color: transparent;
   --toolbar-button-disabled-border-color: transparent;
@@ -1004,16 +1004,16 @@
   --slider-handle-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --file-upload-background-color: transparent;
   --file-upload-border-color: #e0e3e4;
-  --file-upload-text-color: pink;
+  --file-upload-text-color: white;
   --file-upload-empty-background-color: transparent;
   --file-upload-empty-border-color: #e0e3e4;
-  --file-upload-empty-text-color: pink;
+  --file-upload-empty-text-color: white;
   --file-upload-watermark-text-color: rgba(255, 255, 255, 0.5);
   --file-upload-empty-hover-background-color: #c5cacd;
   --file-upload-focus-border-color: #00abf0;
   --file-upload-hover-background-color: transparent;
   --file-upload-hover-border-color: #e0e3e4;
-  --file-upload-hover-text-color: pink;
+  --file-upload-hover-text-color: white;
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #e0e3e4;
   --file-upload-disabled-text-color: #e0e3e4;
@@ -1045,26 +1045,26 @@
   --primary-button-focus-border-color: #bdecff;
   --primary-button-focus-text-color: #8addff;
   --quiet-button-background-color: transparent;
-  --quiet-button-border-color: pink;
-  --quiet-button-text-color: pink;
+  --quiet-button-border-color: white;
+  --quiet-button-text-color: white;
   --quiet-button-hover-background-color: rgba(255, 255, 255, 0.2);
-  --quiet-button-hover-border-color: pink;
-  --quiet-button-hover-text-color: pink;
+  --quiet-button-hover-border-color: white;
+  --quiet-button-hover-text-color: white;
   --quiet-button-focus-background-color: transparent;
   --quiet-button-focus-border-color: #57cfff;
-  --quiet-button-focus-text-color: pink;
+  --quiet-button-focus-text-color: white;
   --quiet-button-disabled-background-color: transparent;
-  --quiet-button-disabled-border-color: pink;
-  --quiet-button-disabled-text-color: pink;
+  --quiet-button-disabled-border-color: white;
+  --quiet-button-disabled-text-color: white;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -1076,7 +1076,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #202425;
   --smartfield-text-color: #b7bec1;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -1093,30 +1093,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(128, 141, 146, 0.4);
   --pill-text-color: #8addff;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(172, 99, 101, 0.4);
   --pill-error-text-color: #de2828;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #92baca;
   --tree-item-hover-text-color: #0e181d;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #a9b2b5;
@@ -1148,11 +1148,11 @@
   --list-error-text-color: #87787c;
   --list-readonly-background-color: rgba(183, 190, 193, 0.6);
   --list-readonly-border-color: #c2c8ca;
-  --list-readonly-text-color: pink;
+  --list-readonly-text-color: white;
   --list-column-header-background-color: #a6afb3;
-  --list-column-header-text-color: pink;
+  --list-column-header-text-color: white;
   --list-column-header-border-color: #89959a;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -1167,30 +1167,30 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #9ba5a9;
-  --list-action-button-text-color: pink;
+  --list-action-button-text-color: white;
   --list-action-button-hover-background-color: #b7bec1;
   --list-action-button-hover-text-color: #202425;
   --list-summary-background-color: #b7bec1;
   --list-summary-separator-line-color: #9ba5a9;
   --tab-background-color: transparent;
-  --tab-text-color: pink;
+  --tab-text-color: white;
   --tab-focus-border-color: #00abf0;
   --tab-hover-background-color: transparent;
-  --tab-hover-text-color: pink;
+  --tab-hover-text-color: white;
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #c5cacd;
   --tab-selected-text-color: #272c2e;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #c5cacd;
   --segmented-tab-bar-background-color: #8e999e;
   --segmented-tab-bar-border-color: #c5cacd;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #2c3133;
   --segmented-tab-hover-background-color: #a9b2b5;
   --segmented-tab-hover-text-color: #141718;
@@ -1214,7 +1214,7 @@
   --heading2-text-color: #063a4f;
   --heading3-text-color: #063a4f;
   --heading4-text-color: #063a4f;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -1231,19 +1231,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #404040;
@@ -1286,23 +1286,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #a5a5a5;
   --file-upload-disabled-text-color: #a5a5a5;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #a5a5a5;
   --button-border-color: #a5a5a5;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #bebebe;
   --button-hover-border-color: #bebebe;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #a5a5a5;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #bebebe;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #a5a5a5;
   --button-disabled-border-color: #a5a5a5;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -1327,13 +1327,13 @@
   --quiet-button-disabled-text-color: #727272;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -1344,8 +1344,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -1362,33 +1362,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -1410,7 +1410,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -1421,7 +1421,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -1436,13 +1436,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #595959;
@@ -1453,7 +1453,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #d8d8d8;
   --tab-selected-text-color: #3a3a3a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #d8d8d8;
   --segmented-tab-bar-background-color: #d8d8d8;
@@ -1471,9 +1471,9 @@
 .theme-entry .tab-box:not(.form-tabs) > .tab-box-body > * .toolbars {
   --error-text-color: #ec8080;
   color: var(--normal-text-color);
-  --normal-text-color: pink;
-  --description-text-color: pink;
-  --paragraph-text-color: pink;
+  --normal-text-color: white;
+  --description-text-color: white;
+  --paragraph-text-color: white;
   --page-title-text-color: #cfedf9;
   --page-subtitle-text-color: #b4dced;
   --heading1-text-color: #cfedf9;
@@ -1482,49 +1482,49 @@
   --heading4-text-color: #cfedf9;
   --input-background-color: transparent;
   --input-border-color: #e2e2e2;
-  --input-text-color: pink;
+  --input-text-color: white;
   --input-watermark-text-color: rgba(255, 255, 255, 0.5);
   --input-disabled-background-color: transparent;
   --input-disabled-border-color: #e0e3e4;
   --input-disabled-text-color: #e0e3e4;
   --input-readonly-background-color: transparent;
   --input-readonly-border-color: #a9b2b5;
-  --input-readonly-text-color: pink;
+  --input-readonly-text-color: white;
   --input-label-text-color: inherit;
   --input-label-disabled-text-color: rgba(255, 255, 255, 0.8);
   --input-error-watermark-text-color: rgba(255, 255, 255, 0.5);
   --input-error-background-color: #928c91;
   --input-error-border-color: #b34647;
-  --input-error-text-color: pink;
+  --input-error-text-color: white;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
-  --input-button-text-color: pink;
+  --input-button-text-color: white;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
-  --input-button-focus-text-color: pink;
+  --input-button-focus-text-color: white;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #ec8080;
   --toolbar-button-background-color: transparent;
-  --toolbar-button-text-color: pink;
+  --toolbar-button-text-color: white;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #a9b2b5;
   --toolbar-button-hover-border-color: #a9b2b5;
   --toolbar-button-hover-text-color: #2c3133;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
-  --toolbar-button-focus-text-color: pink;
+  --toolbar-button-focus-text-color: white;
   --toolbar-button-toggle-background-color: #00abf0;
   --toolbar-button-disabled-background-color: transparent;
   --toolbar-button-disabled-border-color: transparent;
   --toolbar-button-disabled-text-color: #e0e3e4;
-  --slider-handle-background-color: pink;
+  --slider-handle-background-color: white;
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
@@ -1539,16 +1539,16 @@
   --slider-handle-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --file-upload-background-color: transparent;
   --file-upload-border-color: #e0e3e4;
-  --file-upload-text-color: pink;
+  --file-upload-text-color: white;
   --file-upload-empty-background-color: transparent;
   --file-upload-empty-border-color: #e0e3e4;
-  --file-upload-empty-text-color: pink;
+  --file-upload-empty-text-color: white;
   --file-upload-watermark-text-color: rgba(255, 255, 255, 0.5);
   --file-upload-empty-hover-background-color: #c5cacd;
   --file-upload-focus-border-color: #00abf0;
   --file-upload-hover-background-color: transparent;
   --file-upload-hover-border-color: #e0e3e4;
-  --file-upload-hover-text-color: pink;
+  --file-upload-hover-text-color: white;
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #e0e3e4;
   --file-upload-disabled-text-color: #e0e3e4;
@@ -1580,26 +1580,26 @@
   --primary-button-focus-border-color: #bdecff;
   --primary-button-focus-text-color: #8addff;
   --quiet-button-background-color: transparent;
-  --quiet-button-border-color: pink;
-  --quiet-button-text-color: pink;
+  --quiet-button-border-color: white;
+  --quiet-button-text-color: white;
   --quiet-button-hover-background-color: rgba(255, 255, 255, 0.2);
-  --quiet-button-hover-border-color: pink;
-  --quiet-button-hover-text-color: pink;
+  --quiet-button-hover-border-color: white;
+  --quiet-button-hover-text-color: white;
   --quiet-button-focus-background-color: transparent;
   --quiet-button-focus-border-color: #57cfff;
-  --quiet-button-focus-text-color: pink;
+  --quiet-button-focus-text-color: white;
   --quiet-button-disabled-background-color: transparent;
-  --quiet-button-disabled-border-color: pink;
-  --quiet-button-disabled-text-color: pink;
+  --quiet-button-disabled-border-color: white;
+  --quiet-button-disabled-text-color: white;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -1609,9 +1609,9 @@
   --hyperlink-text-color: #00abf0;
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
-  --smartfield-background-color: pink;
+  --smartfield-background-color: white;
   --smartfield-text-color: #666666;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -1628,30 +1628,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(197, 202, 205, 0.4);
   --pill-text-color: #8addff;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(173, 100, 102, 0.4);
   --pill-error-text-color: #de2828;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #719dae;
-  --tree-item-hover-text-color: pink;
+  --tree-item-hover-text-color: white;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #a9b2b5;
@@ -1683,49 +1683,49 @@
   --list-error-text-color: #aba7aa;
   --list-readonly-background-color: transparent;
   --list-readonly-border-color: #a9b2b5;
-  --list-readonly-text-color: pink;
+  --list-readonly-text-color: white;
   --list-column-header-background-color: #a9b2b5;
   --list-column-header-text-color: #444b4f;
   --list-column-header-border-color: #8c989c;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
   --list-item-background-color-odd-zebra: transparent;
   --list-item-background-color-even-zebra: #9ba5a9;
-  --list-item-text-color: pink;
+  --list-item-text-color: white;
   --list-item-description-text-color: inherit;
   --list-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --list-item-hover-border-color: #c4e6f4;
-  --list-item-hover-text-color: pink;
+  --list-item-hover-text-color: white;
   --list-item-focus-border-color: #00abf0;
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #a9b2b5;
   --list-action-button-text-color: #141718;
   --list-action-button-hover-background-color: #8e999e;
-  --list-action-button-hover-text-color: pink;
+  --list-action-button-hover-text-color: white;
   --list-summary-background-color: transparent;
   --list-summary-separator-line-color: transparent;
   --tab-background-color: transparent;
-  --tab-text-color: pink;
+  --tab-text-color: white;
   --tab-focus-border-color: #00abf0;
   --tab-hover-background-color: transparent;
-  --tab-hover-text-color: pink;
+  --tab-hover-text-color: white;
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #c5cacd;
   --tab-selected-text-color: #272c2e;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #c5cacd;
   --segmented-tab-bar-background-color: #8e999e;
   --segmented-tab-bar-border-color: #c5cacd;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #2c3133;
   --segmented-tab-hover-background-color: #a9b2b5;
   --segmented-tab-hover-text-color: #141718;
@@ -1738,9 +1738,9 @@
 .theme-entry .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td {
   --error-text-color: #ec8080;
   color: var(--normal-text-color);
-  --normal-text-color: pink;
-  --description-text-color: pink;
-  --paragraph-text-color: pink;
+  --normal-text-color: white;
+  --description-text-color: white;
+  --paragraph-text-color: white;
   --page-title-text-color: #bdecff;
   --page-subtitle-text-color: #8addff;
   --heading1-text-color: #bdecff;
@@ -1762,31 +1762,31 @@
   --input-error-watermark-text-color: rgba(255, 255, 255, 0.5);
   --input-error-background-color: #4ab6e8;
   --input-error-border-color: #a4505b;
-  --input-error-text-color: pink;
+  --input-error-text-color: white;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #00070b;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #00070b;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #ec8080;
   --toolbar-button-background-color: transparent;
-  --toolbar-button-text-color: pink;
+  --toolbar-button-text-color: white;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #24c0ff;
   --toolbar-button-hover-border-color: #24c0ff;
   --toolbar-button-hover-text-color: #001a24;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
-  --toolbar-button-focus-text-color: pink;
+  --toolbar-button-focus-text-color: white;
   --toolbar-button-toggle-background-color: #00abf0;
   --toolbar-button-disabled-background-color: transparent;
   --toolbar-button-disabled-border-color: transparent;
@@ -1806,16 +1806,16 @@
   --slider-handle-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --file-upload-background-color: transparent;
   --file-upload-border-color: #8addff;
-  --file-upload-text-color: pink;
+  --file-upload-text-color: white;
   --file-upload-empty-background-color: transparent;
   --file-upload-empty-border-color: #8addff;
-  --file-upload-empty-text-color: pink;
+  --file-upload-empty-text-color: white;
   --file-upload-watermark-text-color: rgba(255, 255, 255, 0.5);
   --file-upload-empty-hover-background-color: #57cfff;
   --file-upload-focus-border-color: #00abf0;
   --file-upload-hover-background-color: transparent;
   --file-upload-hover-border-color: #8addff;
-  --file-upload-hover-text-color: pink;
+  --file-upload-hover-text-color: white;
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #8addff;
   --file-upload-disabled-text-color: #8addff;
@@ -1860,13 +1860,13 @@
   --quiet-button-disabled-text-color: #f4f9fb;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -1878,7 +1878,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #00070b;
   --smartfield-text-color: #3ec7ff;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -1895,30 +1895,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(0, 153, 215, 0.4);
   --pill-text-color: #8addff;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(110, 104, 133, 0.4);
   --pill-error-text-color: #de2828;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #31c2fc;
   --tree-item-hover-text-color: black;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #24c0ff;
@@ -1954,7 +1954,7 @@
   --list-column-header-background-color: #1fbfff;
   --list-column-header-text-color: #003a52;
   --list-column-header-border-color: #00a5e8;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -1969,30 +1969,30 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #0bb9ff;
-  --list-action-button-text-color: pink;
+  --list-action-button-text-color: white;
   --list-action-button-hover-background-color: #3ec7ff;
   --list-action-button-hover-text-color: #00070b;
   --list-summary-background-color: #3ec7ff;
   --list-summary-separator-line-color: #0bb9ff;
   --tab-background-color: transparent;
-  --tab-text-color: pink;
+  --tab-text-color: white;
   --tab-focus-border-color: #00abf0;
   --tab-hover-background-color: transparent;
-  --tab-hover-text-color: pink;
+  --tab-hover-text-color: white;
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #57cfff;
   --tab-selected-text-color: #00121a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #57cfff;
   --segmented-tab-bar-background-color: #00abf0;
   --segmented-tab-bar-border-color: #57cfff;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #001a24;
   --segmented-tab-hover-background-color: #24c0ff;
   --segmented-tab-hover-text-color: black;
@@ -2023,11 +2023,11 @@
   --toolbar-separator-line-color: #ebebeb;
   --toolbar-text-color: #666666;
   --toolbar-border-color: #ebebeb;
-  --menu-background-color: pink;
+  --menu-background-color: white;
   --menu-border-color: transparent;
   --menu-text-color: #666666;
   --menu-item-selected-background-color: #00abf0;
-  --menu-item-selected-text-color: pink;
+  --menu-item-selected-text-color: white;
   --menu-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --menu-item-hover-text-color: black;
   --menu-item-focus-background-color: rgba(0, 171, 240, 0.5);
@@ -2053,7 +2053,7 @@
   --heading2-text-color: #053e55;
   --heading3-text-color: #053e55;
   --heading4-text-color: #053e55;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -2070,19 +2070,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #4d4d4d;
@@ -2101,7 +2101,7 @@
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
-  --slider-handle-disabled-background-color: pink;
+  --slider-handle-disabled-background-color: white;
   --slider-handle-disabled-border-color: #b2b2b2;
   --slider-handle-readonly-background-color: #cccccc;
   --slider-handle-readonly-border-color: #cccccc;
@@ -2125,7 +2125,7 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #b2b2b2;
   --file-upload-disabled-text-color: #b2b2b2;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #b2b2b2;
   --button-border-color: #b2b2b2;
@@ -2166,13 +2166,13 @@
   --quiet-button-disabled-text-color: gray;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -2183,8 +2183,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -2201,33 +2201,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -2249,7 +2249,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -2260,7 +2260,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -2275,13 +2275,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #666666;
@@ -2292,7 +2292,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #e6e6e6;
   --tab-selected-text-color: #484848;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #e6e6e6;
   --segmented-tab-bar-background-color: #e6e6e6;
@@ -2304,7 +2304,7 @@
   --segmented-tab-hover-text-color: #404040;
   --segmented-tab-disabled-background-color: transparent;
   --segmented-tab-disabled-text-color: transparent;
-  --segmented-tab-selected-background-color: pink;
+  --segmented-tab-selected-background-color: white;
   --segmented-tab-selected-border-color: #666666;
 }
 .theme-entry .form .view .innerpanel > .grid,
@@ -2334,7 +2334,7 @@
   --heading2-text-color: #063a4f;
   --heading3-text-color: #063a4f;
   --heading4-text-color: #063a4f;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -2351,19 +2351,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #404040;
@@ -2406,23 +2406,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #a5a5a5;
   --file-upload-disabled-text-color: #a5a5a5;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #a5a5a5;
   --button-border-color: #a5a5a5;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #bebebe;
   --button-hover-border-color: #bebebe;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #a5a5a5;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #bebebe;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #a5a5a5;
   --button-disabled-border-color: #a5a5a5;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -2447,13 +2447,13 @@
   --quiet-button-disabled-text-color: #727272;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -2464,8 +2464,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -2482,33 +2482,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -2530,7 +2530,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -2541,7 +2541,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -2556,13 +2556,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #595959;
@@ -2573,7 +2573,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #d8d8d8;
   --tab-selected-text-color: #3a3a3a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #d8d8d8;
   --segmented-tab-bar-background-color: #d8d8d8;
@@ -2620,19 +2620,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #4d4d4d;
@@ -2651,7 +2651,7 @@
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
-  --slider-handle-disabled-background-color: pink;
+  --slider-handle-disabled-background-color: white;
   --slider-handle-disabled-border-color: #b2b2b2;
   --slider-handle-readonly-background-color: #cccccc;
   --slider-handle-readonly-border-color: #cccccc;
@@ -2675,7 +2675,7 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #b2b2b2;
   --file-upload-disabled-text-color: #b2b2b2;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #b2b2b2;
   --button-border-color: #b2b2b2;
@@ -2716,13 +2716,13 @@
   --quiet-button-disabled-text-color: gray;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -2733,8 +2733,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -2751,33 +2751,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -2810,7 +2810,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -2825,7 +2825,7 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
@@ -2842,7 +2842,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #e6e6e6;
   --tab-selected-text-color: #484848;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #e6e6e6;
   --segmented-tab-bar-background-color: #e6e6e6;
@@ -2854,7 +2854,7 @@
   --segmented-tab-hover-text-color: #404040;
   --segmented-tab-disabled-background-color: transparent;
   --segmented-tab-disabled-text-color: transparent;
-  --segmented-tab-selected-background-color: pink;
+  --segmented-tab-selected-background-color: white;
   --segmented-tab-selected-border-color: #666666;
 }
 .theme-entry .form .tab-box:not(.form-tabs) > .tab-box-body > *,
@@ -2885,11 +2885,11 @@
   --toolbar-separator-line-color: #d2d2d2;
   --toolbar-text-color: #4d4d4d;
   --toolbar-border-color: #d2d2d2;
-  --menu-background-color: pink;
+  --menu-background-color: white;
   --menu-border-color: transparent;
   --menu-text-color: #666666;
   --menu-item-selected-background-color: #00abf0;
-  --menu-item-selected-text-color: pink;
+  --menu-item-selected-text-color: white;
   --menu-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --menu-item-hover-text-color: black;
   --menu-item-focus-background-color: rgba(0, 171, 240, 0.5);
@@ -2915,7 +2915,7 @@
   --heading2-text-color: #06364a;
   --heading3-text-color: #06364a;
   --heading4-text-color: #06364a;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -2932,19 +2932,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #343434;
@@ -2963,7 +2963,7 @@
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
-  --slider-handle-disabled-background-color: pinksmoke;
+  --slider-handle-disabled-background-color: whitesmoke;
   --slider-handle-disabled-border-color: darkgray;
   --slider-handle-readonly-background-color: #b3b3b3;
   --slider-handle-readonly-border-color: #b3b3b3;
@@ -2987,23 +2987,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #9a9a9a;
   --file-upload-disabled-text-color: #9a9a9a;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #9a9a9a;
   --button-border-color: #9a9a9a;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #b3b3b3;
   --button-hover-border-color: #b3b3b3;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #9a9a9a;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #b3b3b3;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #9a9a9a;
   --button-disabled-border-color: #9a9a9a;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -3028,13 +3028,13 @@
   --quiet-button-disabled-text-color: #666666;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -3045,8 +3045,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -3063,33 +3063,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -3111,7 +3111,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -3122,7 +3122,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -3137,13 +3137,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #4d4d4d;
@@ -3154,7 +3154,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #cccccc;
   --tab-selected-text-color: #2e2e2e;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #cccccc;
   --segmented-tab-bar-background-color: #cccccc;
@@ -3196,7 +3196,7 @@
   --heading2-text-color: #063a4f;
   --heading3-text-color: #063a4f;
   --heading4-text-color: #063a4f;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -3213,19 +3213,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #404040;
@@ -3268,23 +3268,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #a5a5a5;
   --file-upload-disabled-text-color: #a5a5a5;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #a5a5a5;
   --button-border-color: #a5a5a5;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #bebebe;
   --button-hover-border-color: #bebebe;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #a5a5a5;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #bebebe;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #a5a5a5;
   --button-disabled-border-color: #a5a5a5;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -3309,13 +3309,13 @@
   --quiet-button-disabled-text-color: #727272;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -3326,8 +3326,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -3344,33 +3344,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -3392,7 +3392,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -3403,7 +3403,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -3418,13 +3418,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #595959;
@@ -3435,7 +3435,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #d8d8d8;
   --tab-selected-text-color: #3a3a3a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #d8d8d8;
   --segmented-tab-bar-background-color: #d8d8d8;
@@ -3482,19 +3482,19 @@
   --input-error-border-color: #b84040;
   --input-error-text-color: #4e3333;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #4d4d4d;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #4d4d4d;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #343434;
@@ -3537,23 +3537,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #9a9a9a;
   --file-upload-disabled-text-color: #9a9a9a;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #9a9a9a;
   --button-border-color: #9a9a9a;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #b3b3b3;
   --button-hover-border-color: #b3b3b3;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #9a9a9a;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #b3b3b3;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #9a9a9a;
   --button-disabled-border-color: #9a9a9a;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -3578,13 +3578,13 @@
   --quiet-button-disabled-text-color: #666666;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -3596,7 +3596,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #4d4d4d;
   --smartfield-text-color: #e6e6e6;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -3613,33 +3613,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(179, 179, 179, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(196, 119, 119, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #b8dae8;
   --tree-item-hover-text-color: #1b4353;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -3672,7 +3672,7 @@
   --list-column-header-background-color: #d7d7d7;
   --list-column-header-text-color: #717171;
   --list-column-header-border-color: #bcbcbc;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -3687,7 +3687,7 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #cccccc;
   --list-action-button-text-color: #333333;
@@ -3704,7 +3704,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #cccccc;
   --tab-selected-text-color: #2e2e2e;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #cccccc;
   --segmented-tab-bar-background-color: #cccccc;
@@ -3729,9 +3729,9 @@
 .theme-entry #pgTabContent .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td {
   --error-text-color: #ec8080;
   color: var(--normal-text-color);
-  --normal-text-color: pink;
-  --description-text-color: pink;
-  --paragraph-text-color: pink;
+  --normal-text-color: white;
+  --description-text-color: white;
+  --paragraph-text-color: white;
   --page-title-text-color: #bdecff;
   --page-subtitle-text-color: #8addff;
   --heading1-text-color: #bdecff;
@@ -3753,31 +3753,31 @@
   --input-error-watermark-text-color: rgba(255, 255, 255, 0.5);
   --input-error-background-color: #4ab6e8;
   --input-error-border-color: #a4505b;
-  --input-error-text-color: pink;
+  --input-error-text-color: white;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #00070b;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #00070b;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #ec8080;
   --toolbar-button-background-color: transparent;
-  --toolbar-button-text-color: pink;
+  --toolbar-button-text-color: white;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #24c0ff;
   --toolbar-button-hover-border-color: #24c0ff;
   --toolbar-button-hover-text-color: #001a24;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
-  --toolbar-button-focus-text-color: pink;
+  --toolbar-button-focus-text-color: white;
   --toolbar-button-toggle-background-color: #00abf0;
   --toolbar-button-disabled-background-color: transparent;
   --toolbar-button-disabled-border-color: transparent;
@@ -3797,16 +3797,16 @@
   --slider-handle-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --file-upload-background-color: transparent;
   --file-upload-border-color: #8addff;
-  --file-upload-text-color: pink;
+  --file-upload-text-color: white;
   --file-upload-empty-background-color: transparent;
   --file-upload-empty-border-color: #8addff;
-  --file-upload-empty-text-color: pink;
+  --file-upload-empty-text-color: white;
   --file-upload-watermark-text-color: rgba(255, 255, 255, 0.5);
   --file-upload-empty-hover-background-color: #57cfff;
   --file-upload-focus-border-color: #00abf0;
   --file-upload-hover-background-color: transparent;
   --file-upload-hover-border-color: #8addff;
-  --file-upload-hover-text-color: pink;
+  --file-upload-hover-text-color: white;
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #8addff;
   --file-upload-disabled-text-color: #8addff;
@@ -3851,13 +3851,13 @@
   --quiet-button-disabled-text-color: #f4f9fb;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -3869,7 +3869,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #00070b;
   --smartfield-text-color: #3ec7ff;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -3886,30 +3886,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(0, 153, 215, 0.4);
   --pill-text-color: #8addff;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(110, 104, 133, 0.4);
   --pill-error-text-color: #de2828;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #31c2fc;
   --tree-item-hover-text-color: black;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #24c0ff;
@@ -3945,7 +3945,7 @@
   --list-column-header-background-color: #1fbfff;
   --list-column-header-text-color: #003a52;
   --list-column-header-border-color: #00a5e8;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -3960,30 +3960,30 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #0bb9ff;
-  --list-action-button-text-color: pink;
+  --list-action-button-text-color: white;
   --list-action-button-hover-background-color: #3ec7ff;
   --list-action-button-hover-text-color: #00070b;
   --list-summary-background-color: #3ec7ff;
   --list-summary-separator-line-color: #0bb9ff;
   --tab-background-color: transparent;
-  --tab-text-color: pink;
+  --tab-text-color: white;
   --tab-focus-border-color: #00abf0;
   --tab-hover-background-color: transparent;
-  --tab-hover-text-color: pink;
+  --tab-hover-text-color: white;
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #57cfff;
   --tab-selected-text-color: #00121a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #57cfff;
   --segmented-tab-bar-background-color: #00abf0;
   --segmented-tab-bar-border-color: #57cfff;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #001a24;
   --segmented-tab-hover-background-color: #24c0ff;
   --segmented-tab-hover-text-color: black;
@@ -4011,11 +4011,11 @@
   --toolbar-separator-line-color: #ebebeb;
   --toolbar-text-color: #666666;
   --toolbar-border-color: #ebebeb;
-  --menu-background-color: pink;
+  --menu-background-color: white;
   --menu-border-color: transparent;
   --menu-text-color: #666666;
   --menu-item-selected-background-color: #00abf0;
-  --menu-item-selected-text-color: pink;
+  --menu-item-selected-text-color: white;
   --menu-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --menu-item-hover-text-color: black;
   --menu-item-focus-background-color: rgba(0, 171, 240, 0.5);
@@ -4038,7 +4038,7 @@
   --heading2-text-color: #053e55;
   --heading3-text-color: #053e55;
   --heading4-text-color: #053e55;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -4055,19 +4055,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #4d4d4d;
@@ -4086,7 +4086,7 @@
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
-  --slider-handle-disabled-background-color: pink;
+  --slider-handle-disabled-background-color: white;
   --slider-handle-disabled-border-color: #b2b2b2;
   --slider-handle-readonly-background-color: #cccccc;
   --slider-handle-readonly-border-color: #cccccc;
@@ -4110,7 +4110,7 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #b2b2b2;
   --file-upload-disabled-text-color: #b2b2b2;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #b2b2b2;
   --button-border-color: #b2b2b2;
@@ -4151,13 +4151,13 @@
   --quiet-button-disabled-text-color: gray;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -4168,8 +4168,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -4186,33 +4186,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -4234,7 +4234,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -4245,7 +4245,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -4260,13 +4260,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #666666;
@@ -4277,7 +4277,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #e6e6e6;
   --tab-selected-text-color: #484848;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #e6e6e6;
   --segmented-tab-bar-background-color: #e6e6e6;
@@ -4289,7 +4289,7 @@
   --segmented-tab-hover-text-color: #404040;
   --segmented-tab-disabled-background-color: transparent;
   --segmented-tab-disabled-text-color: transparent;
-  --segmented-tab-selected-background-color: pink;
+  --segmented-tab-selected-background-color: white;
   --segmented-tab-selected-border-color: #666666;
 }
 .theme-entry .dialog .view .innerpanel > .grid,
@@ -4307,7 +4307,7 @@
   --heading2-text-color: #063a4f;
   --heading3-text-color: #063a4f;
   --heading4-text-color: #063a4f;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -4324,19 +4324,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #404040;
@@ -4379,23 +4379,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #a5a5a5;
   --file-upload-disabled-text-color: #a5a5a5;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #a5a5a5;
   --button-border-color: #a5a5a5;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #bebebe;
   --button-hover-border-color: #bebebe;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #a5a5a5;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #bebebe;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #a5a5a5;
   --button-disabled-border-color: #a5a5a5;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -4420,13 +4420,13 @@
   --quiet-button-disabled-text-color: #727272;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -4437,8 +4437,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -4455,33 +4455,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -4503,7 +4503,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -4514,7 +4514,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -4529,13 +4529,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #595959;
@@ -4546,7 +4546,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #d8d8d8;
   --tab-selected-text-color: #3a3a3a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #d8d8d8;
   --segmented-tab-bar-background-color: #d8d8d8;
@@ -4590,19 +4590,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #4d4d4d;
@@ -4621,7 +4621,7 @@
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
-  --slider-handle-disabled-background-color: pink;
+  --slider-handle-disabled-background-color: white;
   --slider-handle-disabled-border-color: #b2b2b2;
   --slider-handle-readonly-background-color: #cccccc;
   --slider-handle-readonly-border-color: #cccccc;
@@ -4645,7 +4645,7 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #b2b2b2;
   --file-upload-disabled-text-color: #b2b2b2;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #b2b2b2;
   --button-border-color: #b2b2b2;
@@ -4686,13 +4686,13 @@
   --quiet-button-disabled-text-color: gray;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -4703,8 +4703,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -4721,33 +4721,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -4780,7 +4780,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -4795,7 +4795,7 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
@@ -4812,7 +4812,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #e6e6e6;
   --tab-selected-text-color: #484848;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #e6e6e6;
   --segmented-tab-bar-background-color: #e6e6e6;
@@ -4824,7 +4824,7 @@
   --segmented-tab-hover-text-color: #404040;
   --segmented-tab-disabled-background-color: transparent;
   --segmented-tab-disabled-text-color: transparent;
-  --segmented-tab-selected-background-color: pink;
+  --segmented-tab-selected-background-color: white;
   --segmented-tab-selected-border-color: #666666;
 }
 .theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * {
@@ -4849,11 +4849,11 @@
   --toolbar-separator-line-color: #d2d2d2;
   --toolbar-text-color: #4d4d4d;
   --toolbar-border-color: #d2d2d2;
-  --menu-background-color: pink;
+  --menu-background-color: white;
   --menu-border-color: transparent;
   --menu-text-color: #666666;
   --menu-item-selected-background-color: #00abf0;
-  --menu-item-selected-text-color: pink;
+  --menu-item-selected-text-color: white;
   --menu-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --menu-item-hover-text-color: black;
   --menu-item-focus-background-color: rgba(0, 171, 240, 0.5);
@@ -4876,7 +4876,7 @@
   --heading2-text-color: #06364a;
   --heading3-text-color: #06364a;
   --heading4-text-color: #06364a;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -4893,19 +4893,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #343434;
@@ -4924,7 +4924,7 @@
   --slider-handle-border-color: transparent;
   --slider-handle-hover-background-color: #00abf0;
   --slider-handle-hover-border-color: transparent;
-  --slider-handle-disabled-background-color: pinksmoke;
+  --slider-handle-disabled-background-color: whitesmoke;
   --slider-handle-disabled-border-color: darkgray;
   --slider-handle-readonly-background-color: #b3b3b3;
   --slider-handle-readonly-border-color: #b3b3b3;
@@ -4948,23 +4948,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #9a9a9a;
   --file-upload-disabled-text-color: #9a9a9a;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #9a9a9a;
   --button-border-color: #9a9a9a;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #b3b3b3;
   --button-hover-border-color: #b3b3b3;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #9a9a9a;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #b3b3b3;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #9a9a9a;
   --button-disabled-border-color: #9a9a9a;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -4989,13 +4989,13 @@
   --quiet-button-disabled-text-color: #666666;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -5006,8 +5006,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -5024,33 +5024,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -5072,7 +5072,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -5083,7 +5083,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -5098,13 +5098,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #4d4d4d;
@@ -5115,7 +5115,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #cccccc;
   --tab-selected-text-color: #2e2e2e;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #cccccc;
   --segmented-tab-bar-background-color: #cccccc;
@@ -5145,7 +5145,7 @@
   --heading2-text-color: #063a4f;
   --heading3-text-color: #063a4f;
   --heading4-text-color: #063a4f;
-  --input-background-color: pink;
+  --input-background-color: white;
   --input-border-color: #b2b2b2;
   --input-text-color: #666666;
   --input-watermark-text-color: rgba(102, 102, 102, 0.5);
@@ -5162,19 +5162,19 @@
   --input-error-border-color: #c34242;
   --input-error-text-color: #842a2a;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #666666;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #666666;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #404040;
@@ -5217,23 +5217,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #a5a5a5;
   --file-upload-disabled-text-color: #a5a5a5;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #a5a5a5;
   --button-border-color: #a5a5a5;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #bebebe;
   --button-hover-border-color: #bebebe;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #a5a5a5;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #bebebe;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #a5a5a5;
   --button-disabled-border-color: #a5a5a5;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -5258,13 +5258,13 @@
   --quiet-button-disabled-text-color: #727272;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -5275,8 +5275,8 @@
   --hyperlink-disabled-text-color: #a4b5b9;
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #666666;
-  --smartfield-text-color: pink;
-  --calendar-background-color: pink;
+  --smartfield-text-color: white;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -5293,33 +5293,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(204, 204, 204, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(209, 131, 131, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #cceefc;
   --tree-item-hover-text-color: #08678e;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -5341,7 +5341,7 @@
   --search-highlight-background-color: #ffdb00;
   --search-highlight-background-color-1: #ffdb00;
   --search-highlight-text-color: black;
-  --list-background-color: pink;
+  --list-background-color: white;
   --list-border-color: #b2b2b2;
   --list-error-background-color: #f8e8e8;
   --list-error-border-color: #c34242;
@@ -5352,7 +5352,7 @@
   --list-column-header-background-color: #f0f0f0;
   --list-column-header-text-color: #8a8a8a;
   --list-column-header-border-color: #d5d5d5;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -5367,13 +5367,13 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #e6e6e6;
   --list-action-button-text-color: #4d4d4d;
   --list-action-button-hover-background-color: #cccccc;
   --list-action-button-hover-text-color: #333333;
-  --list-summary-background-color: pink;
+  --list-summary-background-color: white;
   --list-summary-separator-line-color: #e6e6e6;
   --tab-background-color: transparent;
   --tab-text-color: #595959;
@@ -5384,7 +5384,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #d8d8d8;
   --tab-selected-text-color: #3a3a3a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #d8d8d8;
   --segmented-tab-bar-background-color: #d8d8d8;
@@ -5428,19 +5428,19 @@
   --input-error-border-color: #b84040;
   --input-error-text-color: #4e3333;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #4d4d4d;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #4d4d4d;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #b71c1c;
   --toolbar-button-background-color: transparent;
   --toolbar-button-text-color: #343434;
@@ -5483,23 +5483,23 @@
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #9a9a9a;
   --file-upload-disabled-text-color: #9a9a9a;
-  --loader-track-background-color: pink;
+  --loader-track-background-color: white;
   --loader-progress-background-color: #00abf0;
   --button-background-color: #9a9a9a;
   --button-border-color: #9a9a9a;
-  --button-text-color: pink;
+  --button-text-color: white;
   --button-hover-background-color: #b3b3b3;
   --button-hover-border-color: #b3b3b3;
-  --button-hover-text-color: pink;
+  --button-hover-text-color: white;
   --button-focus-background-color: #9a9a9a;
   --button-focus-border-color: #00abf0;
-  --button-focus-text-color: pink;
+  --button-focus-text-color: white;
   --button-focus-shadow-color: none;
   --button-hover-focus-background-color: #b3b3b3;
   --button-hover-focus-border-color: #00abf0;
   --button-disabled-background-color: #9a9a9a;
   --button-disabled-border-color: #9a9a9a;
-  --button-disabled-text-color: pink;
+  --button-disabled-text-color: white;
   --button-shadow-color: none;
   --primary-button-background-color: #0087bd;
   --primary-button-border-color: #0087bd;
@@ -5524,13 +5524,13 @@
   --quiet-button-disabled-text-color: #666666;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -5542,7 +5542,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #4d4d4d;
   --smartfield-text-color: #e6e6e6;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -5559,33 +5559,33 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(179, 179, 179, 0.4);
   --pill-text-color: #00628a;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(196, 119, 119, 0.4);
   --pill-error-text-color: #8b1515;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #b8dae8;
   --tree-item-hover-text-color: #1b4353;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
-  --chart-background-color: pink;
+  --chart-background-color: white;
   --chart-border-color: #b2b2b2;
   --chart-header-background-color: transparent;
   --chart-title-text-color: #4d4d4d;
@@ -5618,7 +5618,7 @@
   --list-column-header-background-color: #d7d7d7;
   --list-column-header-text-color: #717171;
   --list-column-header-border-color: #bcbcbc;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -5633,7 +5633,7 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #cccccc;
   --list-action-button-text-color: #333333;
@@ -5650,7 +5650,7 @@
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #cccccc;
   --tab-selected-text-color: #2e2e2e;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #cccccc;
   --segmented-tab-bar-background-color: #cccccc;
@@ -5669,9 +5669,9 @@
 .theme-entry .dialog .tab-box:not(.form-tabs) > .tab-box-body > * .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td {
   --error-text-color: #ec8080;
   color: var(--normal-text-color);
-  --normal-text-color: pink;
-  --description-text-color: pink;
-  --paragraph-text-color: pink;
+  --normal-text-color: white;
+  --description-text-color: white;
+  --paragraph-text-color: white;
   --page-title-text-color: #bdecff;
   --page-subtitle-text-color: #8addff;
   --heading1-text-color: #bdecff;
@@ -5693,31 +5693,31 @@
   --input-error-watermark-text-color: rgba(255, 255, 255, 0.5);
   --input-error-background-color: #4ab6e8;
   --input-error-border-color: #a4505b;
-  --input-error-text-color: pink;
+  --input-error-text-color: white;
   --input-text-highlight-background-color: #00abf0;
-  --input-text-highlight-text-color: pink;
+  --input-text-highlight-text-color: white;
   --input-focus-border-color: #00abf0;
   --input-button-background-color: transparent;
   --input-button-border-color: transparent;
   --input-button-text-color: #00070b;
   --input-button-hover-background-color: #00abf0;
   --input-button-hover-border-color: transparent;
-  --input-button-hover-text-color: pink;
+  --input-button-hover-text-color: white;
   --input-button-focus-background-color: transparent;
   --input-button-focus-border-color: #00abf0;
   --input-button-focus-text-color: #00070b;
   --input-button-toggleon-background-color: #00abf0;
-  --input-button-toggleon-text-color: pink;
+  --input-button-toggleon-text-color: white;
   --required-indicator-background-color: #ec8080;
   --toolbar-button-background-color: transparent;
-  --toolbar-button-text-color: pink;
+  --toolbar-button-text-color: white;
   --toolbar-button-border-color: transparent;
   --toolbar-button-hover-background-color: #24c0ff;
   --toolbar-button-hover-border-color: #24c0ff;
   --toolbar-button-hover-text-color: #001a24;
   --toolbar-button-focus-background-color: transparent;
   --toolbar-button-focus-border-color: #00abf0;
-  --toolbar-button-focus-text-color: pink;
+  --toolbar-button-focus-text-color: white;
   --toolbar-button-toggle-background-color: #00abf0;
   --toolbar-button-disabled-background-color: transparent;
   --toolbar-button-disabled-border-color: transparent;
@@ -5737,16 +5737,16 @@
   --slider-handle-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --file-upload-background-color: transparent;
   --file-upload-border-color: #8addff;
-  --file-upload-text-color: pink;
+  --file-upload-text-color: white;
   --file-upload-empty-background-color: transparent;
   --file-upload-empty-border-color: #8addff;
-  --file-upload-empty-text-color: pink;
+  --file-upload-empty-text-color: white;
   --file-upload-watermark-text-color: rgba(255, 255, 255, 0.5);
   --file-upload-empty-hover-background-color: #57cfff;
   --file-upload-focus-border-color: #00abf0;
   --file-upload-hover-background-color: transparent;
   --file-upload-hover-border-color: #8addff;
-  --file-upload-hover-text-color: pink;
+  --file-upload-hover-text-color: white;
   --file-upload-disabled-background-color: transparent;
   --file-upload-disabled-border-color: #8addff;
   --file-upload-disabled-text-color: #8addff;
@@ -5791,13 +5791,13 @@
   --quiet-button-disabled-text-color: #f4f9fb;
   --destructive-button-background-color: #b71c1c;
   --destructive-button-border-color: #b71c1c;
-  --destructive-button-text-color: pink;
+  --destructive-button-text-color: white;
   --destructive-button-hover-background-color: #e03939;
   --destructive-button-hover-border-color: #e03939;
-  --destructive-button-hover-text-color: pink;
+  --destructive-button-hover-text-color: white;
   --destructive-button-focus-background-color: #b71c1c;
   --destructive-button-focus-border-color: #bdecff;
-  --destructive-button-focus-text-color: pink;
+  --destructive-button-focus-text-color: white;
   --help-button-background-color: transparent;
   --help-button-border-color: transparent;
   --help-button-focus-background-color: transparent;
@@ -5809,7 +5809,7 @@
   --hyperlink-focus-border-color: #00abf0;
   --smartfield-background-color: #00070b;
   --smartfield-text-color: #3ec7ff;
-  --calendar-background-color: pink;
+  --calendar-background-color: white;
   --calendar-text-color: #666666;
   --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --calendar-separator-line-color: #cccccc;
@@ -5826,30 +5826,30 @@
   --calendar-navigation-button-text-color: #666666;
   --calendar-navigation-button-hover-background-color: #00abf0;
   --calendar-navigation-button-hover-border-color: #00abf0;
-  --calendar-navigation-button-hover-text-color: pink;
+  --calendar-navigation-button-hover-text-color: white;
   --calendar-today-border-color: #cccccc;
   --calendar-selected-item-background-color: #00abf0;
   --calendar-selected-item-border-color: #00abf0;
-  --calendar-selected-item-text-color: pink;
+  --calendar-selected-item-text-color: white;
   --pill-background-color: rgba(0, 153, 215, 0.4);
   --pill-text-color: #8addff;
   --pill-selected-background-color: #00abf0;
-  --pill-selected-text-color: pink;
+  --pill-selected-text-color: white;
   --pill-error-background-color: rgba(110, 104, 133, 0.4);
   --pill-error-text-color: #de2828;
-  --tooltip-background-color: pink;
+  --tooltip-background-color: white;
   --tooltip-border-color: #cccccc;
   --tooltip-text-color: #666666;
   --tooltip-error-background-color: #b71c1c;
   --tooltip-error-border-color: #b71c1c;
-  --tooltip-error-text-color: pink;
+  --tooltip-error-text-color: white;
   --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   --tree-item-hover-background-color: rgba(0, 171, 240, 0.2);
   --tree-item-hover-border-color: #31c2fc;
   --tree-item-hover-text-color: black;
   --tree-item-selected-background-color: #00abf0;
   --tree-item-selected-border-color: #00abf0;
-  --tree-item-selected-text-color: pink;
+  --tree-item-selected-text-color: white;
   --tree-item-focus-border-color: #00abf0;
   --tree-item-rounding: 3px;
   --chart-background-color: #24c0ff;
@@ -5885,7 +5885,7 @@
   --list-column-header-background-color: #1fbfff;
   --list-column-header-text-color: #003a52;
   --list-column-header-border-color: #00a5e8;
-  --list-column-header-divider-color: pink;
+  --list-column-header-divider-color: white;
   --list-column-header-focus-border-color: #00abf0;
   --list-add-row-background-color: transparent;
   --list-item-background-color: transparent;
@@ -5900,30 +5900,30 @@
   --list-item-error-border-color: #b71c1c;
   --list-item-selected-background-color: #00abf0;
   --list-item-selected-border-color: #00abf0;
-  --list-item-selected-text-color: pink;
+  --list-item-selected-text-color: white;
   --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
   --list-action-button-background-color: #0bb9ff;
-  --list-action-button-text-color: pink;
+  --list-action-button-text-color: white;
   --list-action-button-hover-background-color: #3ec7ff;
   --list-action-button-hover-text-color: #00070b;
   --list-summary-background-color: #3ec7ff;
   --list-summary-separator-line-color: #0bb9ff;
   --tab-background-color: transparent;
-  --tab-text-color: pink;
+  --tab-text-color: white;
   --tab-focus-border-color: #00abf0;
   --tab-hover-background-color: transparent;
-  --tab-hover-text-color: pink;
+  --tab-hover-text-color: white;
   --tab-disabled-background-color: transparent;
   --tab-disabled-text-color: transparent;
   --tab-selected-background-color: #57cfff;
   --tab-selected-text-color: #00121a;
-  --main-tab-selected-background-color: pink;
+  --main-tab-selected-background-color: white;
   --main-tab-selected-text-color: #616161;
   --tab-body-background-color: #57cfff;
   --segmented-tab-bar-background-color: #00abf0;
   --segmented-tab-bar-border-color: #57cfff;
   --segmented-tab-background-color: transparent;
-  --segmented-tab-text-color: pink;
+  --segmented-tab-text-color: white;
   --segmented-tab-selected-text-color: #001a24;
   --segmented-tab-hover-background-color: #24c0ff;
   --segmented-tab-hover-text-color: black;
@@ -6226,7 +6226,7 @@ body.theme-entry {
 .theme-entry .spinner/*non-standard*/ {
   height: auto;
 }
-/*editable controls (should appear pink)*/
+/*editable controls (should appear white)*/
 
 .theme-entry span.textbox-style-wrapper,
 .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox {
@@ -6361,7 +6361,7 @@ html[dir=rtl] .theme-entry label.input-control .input-control-text {
   right: 0;
   text-overflow: ellipsis;
   top: 0;
-  pink-space: nowrap;
+  white-space: nowrap;
   /*indent is acheived with padding*/
 
   /*needed for text-overflow*/
@@ -6616,7 +6616,7 @@ html[dir=rtl] .theme-entry .multi-select-outer-panel .input-control-watermark {
   -o-text-overflow: ellipsis;
   -webkit-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  pink-space: pre;
+  white-space: pre;
   -ms-word-wrap: normal;
   word-wrap: normal;
   cursor: default;
@@ -6982,7 +6982,7 @@ html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons {
   position: relative !important;
   /* override inline */
   vertical-align: middle;
-  pink-space: nowrap;
+  white-space: nowrap;
   /*make sure the buttons are inline*/
 
   /*override - base*/
@@ -7406,7 +7406,7 @@ html[dir=rtl] .theme-entry .input-control.select-box.picker-input.hide-buttons .
 
 .theme-entry .multi-select-outer-panel .input-control.radio .input-control-text {
   display: table-cell;
-  pink-space: normal;
+  white-space: normal;
   /*multi-line text will appear as a block to the right of the radio button*/
 
 }
@@ -7625,7 +7625,7 @@ html[dir=rtl] .theme-entry .panel-header-wrapper .panel-header-controls {
   -ms-text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  pink-space: nowrap;
+  white-space: nowrap;
   float: none;
   /*override - base*/
   padding-left: var(--block-inset-horizontal-spacing);
@@ -7762,7 +7762,7 @@ html[dir=rtl] .theme-entry .panel-header-wrapper .panel-header-controls {
 }
 .theme-entry a.toolbar-button span.button-text {
   padding: 0 0.3rem;
-  pink-space: pre;
+  white-space: pre;
 }
 .theme-entry a.toolbar-button span.button-text,
 .theme-entry a.toolbar-button span.button-c span.button-icon {
@@ -8381,7 +8381,7 @@ html[dir=rtl] .theme-entry .panel-header-wrapper .panel-header-controls {
   -o-text-overflow: ellipsis;
   -webkit-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  pink-space: nowrap;
+  white-space: nowrap;
 }
 .theme-entry.runtime-form span.runtime-list-item-wrap,
 .theme-entry.runtime-form span.runtime-list-item {
@@ -9004,7 +9004,7 @@ html[dir="rtl"] .theme-entry .dialog .popup-header-buttons a {
 }
 .theme-entry .dialog#PickerSearchDialog .picker-input .editable-area span.entity,
 .theme-entry .dialog#PickerSearchDialog .picker-input .editable-area span.spacer {
-  pink-space: normal;
+  white-space: normal;
 }
 .theme-entry .dialog#PickerSearchDialog .picker-input .editable-area {
   line-height: normal;
@@ -9280,12 +9280,12 @@ html[dir=rtl] #SessionExpirationWarningDialog label.input-control.checkbox .inpu
 }
 html[dir=ltr] .theme-entry #SessionExpirationWarningDialog label.input-control.checkbox {
   margin-left: -1px;
-  /*lithium checkbox image has less pinkspace*/
+  /*lithium checkbox image has less whitespace*/
 
 }
 html[dir=rtl] .theme-entry #SessionExpirationWarningDialog label.input-control.checkbox {
   margin-right: 0;
-  /*lithium checkbox image has less pinkspace*/
+  /*lithium checkbox image has less whitespace*/
 
 }
 /*#endregion*/
@@ -9570,7 +9570,7 @@ html[dir=rtl] .theme-entry .tab-box ul.tab-box-tabs li a.tab .tab-wrapper {
   /*override - base*/
   display: table-cell;
   vertical-align: middle;
-  pink-space: nowrap;
+  white-space: nowrap;
   /*make sure the buttons are inline*/
 
   /*override - base*/
@@ -9805,7 +9805,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
 .theme-entry .week {
   position: relative;
   min-width: 0;
-  pink-space: nowrap;
+  white-space: nowrap;
 }
 .theme-entry .today-text .today-text-label,
 .theme-entry .today-text br {
@@ -10399,7 +10399,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   -o-text-overflow: ellipsis;
   -webkit-text-overflow: ellipsis;
   text-overflow: ellipsis;
-  pink-space: nowrap;
+  white-space: nowrap;
   padding: 0.5rem 0.6rem;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -10594,8 +10594,8 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     color: #636f80;
   }
   100% {
-    background-color: pink;
-    /*normal pink*/
+    background-color: white;
+    /*normal white*/
     color: #313841;
   }
 }
@@ -10606,8 +10606,8 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     color: #636f80;
   }
   100% {
-    background-color: pink;
-    /*normal pink*/
+    background-color: white;
+    /*normal white*/
     color: #313841;
   }
 }
@@ -10663,7 +10663,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0px -52px;
   }
   .theme-entry .input-control.select-box .input-control-buttons a.picker-search:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search16pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search16white.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop.png?v=1AD13FE70E17AD1581FFD4105DDB63CAB0317650F59C3491D121B0B92D28492E');
     background-position: 0px -78px;
   }
@@ -10679,7 +10679,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0px -104px;
   }
   .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_pink16.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_white16.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop.png?v=1AD13FE70E17AD1581FFD4105DDB63CAB0317650F59C3491D121B0B92D28492E');
     background-position: 0px -130px;
   }
@@ -10988,21 +10988,21 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   /*date hover*/
   
   .theme-entry .input-control.select-box .input-control-buttons a.date:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_pink16.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_white16.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop.png?v=1AD13FE70E17AD1581FFD4105DDB63CAB0317650F59C3491D121B0B92D28492E');
     background-position: 0px -1149px;
   }
   /*date-time hover*/
   
   .theme-entry .input-control.select-box.datetimepicker .input-control-buttons a.date:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime16_pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime16_white.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop.png?v=1AD13FE70E17AD1581FFD4105DDB63CAB0317650F59C3491D121B0B92D28492E');
     background-position: 0px -1175px;
   }
   /*time hover*/
   
   .theme-entry .input-control.select-box.timepicker .input-control-buttons a.date:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time16_pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time16_white.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop.png?v=1AD13FE70E17AD1581FFD4105DDB63CAB0317650F59C3491D121B0B92D28492E');
     background-position: 0px -1201px;
   }
@@ -11248,7 +11248,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0 -644px;
   }
   .theme-entry a.picker-search.menu-item .menu-item-icon {
-    /*[SpriteHint]yOffset[10]xOffset[0]url[Toolbar/Search16pink.png]important[False]*/
+    /*[SpriteHint]yOffset[10]xOffset[0]url[Toolbar/Search16white.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop.png?v=1AD13FE70E17AD1581FFD4105DDB63CAB0317650F59C3491D121B0B92D28492E');
     background-position: 0 -68px;
   }
@@ -12606,7 +12606,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   }
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-search:hover > span span,
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-search:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20white.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile.png?v=AFD2887CA575B1A2A51D06F8470D8CFCB6A8C4CB006363B6984503A2B749C2A1');
     background-position: 0px -94px;
   }
@@ -12623,7 +12623,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   }
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:hover > span span,
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_pink20.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_white20.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile.png?v=AFD2887CA575B1A2A51D06F8470D8CFCB6A8C4CB006363B6984503A2B749C2A1');
     background-position: 0px -154px;
   }
@@ -12910,7 +12910,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.date:hover > span span,
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.date:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_pink20.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_white20.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile.png?v=AFD2887CA575B1A2A51D06F8470D8CFCB6A8C4CB006363B6984503A2B749C2A1');
     background-position: 0px -1294px;
   }
@@ -12918,7 +12918,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   
   .mobile .theme-entry .input-control.select-box.datetimepicker .input-control-buttons a.date:hover > span span,
   .mobile .theme-entry .input-control.select-box.datetimepicker .input-control-buttons a.date:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime20_pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime20_white.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile.png?v=AFD2887CA575B1A2A51D06F8470D8CFCB6A8C4CB006363B6984503A2B749C2A1');
     background-position: 0px -1324px;
   }
@@ -12926,7 +12926,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   
   .mobile .theme-entry .input-control.select-box.timepicker .input-control-buttons a.date:hover > span span,
   .mobile .theme-entry .input-control.select-box.timepicker .input-control-buttons a.date:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time20_pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time20_white.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile.png?v=AFD2887CA575B1A2A51D06F8470D8CFCB6A8C4CB006363B6984503A2B749C2A1');
     background-position: 0px -1354px;
   }
@@ -13173,7 +13173,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0 -784px;
   }
   .mobile .theme-entry a.picker-search.menu-item .menu-item-icon {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20pink.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20white.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile.png?v=AFD2887CA575B1A2A51D06F8470D8CFCB6A8C4CB006363B6984503A2B749C2A1');
     background-position: 0 -94px;
   }
@@ -14468,7 +14468,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   }
   .theme-entry .input-control.select-box .input-control-buttons a.picker-search:hover > span span,
   .theme-entry .input-control.select-box .input-control-buttons a#searchButtonDiv:hover > span span/* report header - select user picker */ {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search16pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search16white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop@2x.png?v=A45F908B02A13B9A36290A530CE1BFAFCCF3528CAEF66DE215922D1D08E8A0AD');
     background-size: 50px 4706px;
     background-position: 0px -78px;
@@ -14486,7 +14486,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0px -104px;
   }
   .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_pink16@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_white16@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop@2x.png?v=A45F908B02A13B9A36290A530CE1BFAFCCF3528CAEF66DE215922D1D08E8A0AD');
     background-size: 50px 4706px;
     background-position: 0px -130px;
@@ -14824,7 +14824,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   /*date hover*/
   
   .theme-entry .input-control.select-box .input-control-buttons a.date:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_pink16@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_white16@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop@2x.png?v=A45F908B02A13B9A36290A530CE1BFAFCCF3528CAEF66DE215922D1D08E8A0AD');
     background-size: 50px 4706px;
     background-position: 0px -1096px;
@@ -14832,7 +14832,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   /*date-time hover*/
   
   .theme-entry .input-control.select-box.datetimepicker .input-control-buttons a.date:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime16_pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime16_white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop@2x.png?v=A45F908B02A13B9A36290A530CE1BFAFCCF3528CAEF66DE215922D1D08E8A0AD');
     background-size: 50px 4706px;
     background-position: 0px -1122px;
@@ -14840,7 +14840,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   /*time hover*/
   
   .theme-entry .input-control.select-box.timepicker .input-control-buttons a.date:hover > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time16_pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time16_white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop@2x.png?v=A45F908B02A13B9A36290A530CE1BFAFCCF3528CAEF66DE215922D1D08E8A0AD');
     background-size: 50px 4706px;
     background-position: 0px -1148px;
@@ -15104,7 +15104,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0 -644px;
   }
   .theme-entry a.picker-search.menu-item .menu-item-icon {
-    /*[SpriteHint]yOffset[10]xOffset[0]url[Toolbar/Search16pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[10]xOffset[0]url[Toolbar/Search16white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteDesktop@2x.png?v=A45F908B02A13B9A36290A530CE1BFAFCCF3528CAEF66DE215922D1D08E8A0AD');
     background-size: 50px 4706px;
     background-position: 0 -68px;
@@ -16648,7 +16648,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   }
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-search:hover > span span,
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-search:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile@2x.png?v=45A932FA39AF8E8DD80D3BE86525342C4C6F0EADD139C1F96B1BDFD11164C94E');
     background-size: 50px 5486px;
     background-position: 0px -94px;
@@ -16667,7 +16667,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   }
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:hover > span span,
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.picker-resolve:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_pink20@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Picker_white20@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile@2x.png?v=45A932FA39AF8E8DD80D3BE86525342C4C6F0EADD139C1F96B1BDFD11164C94E');
     background-size: 50px 5486px;
     background-position: 0px -154px;
@@ -16993,7 +16993,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.date:hover > span span,
   .mobile .theme-entry .input-control.select-box .input-control-buttons a.date:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_pink20@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Date_white20@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile@2x.png?v=45A932FA39AF8E8DD80D3BE86525342C4C6F0EADD139C1F96B1BDFD11164C94E');
     background-size: 50px 5486px;
     background-position: 0px -1294px;
@@ -17002,7 +17002,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   
   .mobile .theme-entry .input-control.select-box.datetimepicker .input-control-buttons a.date:hover > span span,
   .mobile .theme-entry .input-control.select-box.datetimepicker .input-control-buttons a.date:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime20_pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/DateTime20_white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile@2x.png?v=45A932FA39AF8E8DD80D3BE86525342C4C6F0EADD139C1F96B1BDFD11164C94E');
     background-size: 50px 5486px;
     background-position: 0px -1324px;
@@ -17011,7 +17011,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
   
   .mobile .theme-entry .input-control.select-box.timepicker .input-control-buttons a.date:hover > span span,
   .mobile .theme-entry .input-control.select-box.timepicker .input-control-buttons a.date:focus > span span {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time20_pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[RuntimeTheme/Time20_white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile@2x.png?v=45A932FA39AF8E8DD80D3BE86525342C4C6F0EADD139C1F96B1BDFD11164C94E');
     background-size: 50px 5486px;
     background-position: 0px -1354px;
@@ -17298,7 +17298,7 @@ html[dir=rtl] .theme-entry .spinner .spinner-inputs .spinner-input-wrapper {
     background-position: 0 -784px;
   }
   .mobile .theme-entry a.picker-search.menu-item .menu-item-icon {
-    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20pink@2x.png]important[False]*/
+    /*[SpriteHint]yOffset[0]xOffset[0]url[Toolbar/Search20white@2x.png]important[False]*/
     background-image: url('_Dynamic/SpriteMobile@2x.png?v=45A932FA39AF8E8DD80D3BE86525342C4C6F0EADD139C1F96B1BDFD11164C94E');
     background-size: 50px 5486px;
     background-position: 0 -94px;
@@ -19729,7 +19729,7 @@ html[dir=rtl] .theme-entry .grid .grid-footer .toolbars a.toolbar-button {
 /*Allows the filter controls to wrap onto another line*/
 
 .mobile .theme-entry .filterContainer .quickSearch.filter {
-  pink-space: normal;
+  white-space: normal;
 }
 .mobile .theme-entry .filterContainer .quickSearch .filterTxt .input-control input[type=text].input-control {
   height: 3.2rem;
@@ -20029,7 +20029,7 @@ html[dir=rtl].mobile .theme-entry .grid-footer .grid-paging-control {
 /*#region TABS SCROLLING */
 
 .mobile .theme-entry .tab-box.tabs-top ul.tab-box-tabs {
-  pink-space: nowrap;
+  white-space: nowrap;
   overflow-x: auto;
 }
 /*#endregion TABS SCROLLING */
@@ -20429,7 +20429,7 @@ html[dir=rtl].mobile .theme-entry .grid-footer .grid-paging-control {
     box-sizing: content-box;
   }
   .mobile .theme-entry #SessionExpirationWarningDialog label.input-control.checkbox span.input-control-text {
-    pink-space: normal;
+    white-space: normal;
     display: inline-block;
   }
   .mobile .theme-entry #SessionExpirationWarningDialog label.input-control.checkbox {
