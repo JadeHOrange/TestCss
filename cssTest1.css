@@ -54,7 +54,7 @@
 }
 .theme-entry {
   --page-background-color: #a9b2b5;
-  --form-background-color: white;
+  --form-background-color: pink;
   --dialog-background-color: white;
   --dialog-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
   --dialog-header-text-color: #666666;
